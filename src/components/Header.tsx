@@ -7,14 +7,14 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "../components/ui/dropdown-menu"
 import {
   Drawer,
   DrawerClose,
   DrawerContent,
   DrawerHeader,
   DrawerTrigger,
-} from "@/components/ui/drawer"
+} from "../components/ui/drawer"
 
 const NavItem = () => (
   <>

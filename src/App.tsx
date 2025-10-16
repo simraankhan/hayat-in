@@ -5,7 +5,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "./components/ui/carousel"
 import { carouselData, postData, tabItems } from "./constants/data";
 import CarouselCardItem from "./components/CarouselCardItem";
 import TabBar from "./components/TabBar";
@@ -21,7 +21,7 @@ import {
   DrawerContent,
   DrawerHeader,
   DrawerTrigger,
-} from "@/components/ui/drawer"
+} from "./components/ui/drawer";
 import Trending from "./components/Trending";
 import Connections from "./components/Connections";
 import AppDowload from "./components/AppDowload";
