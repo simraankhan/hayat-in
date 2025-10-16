@@ -1,7 +1,7 @@
 
 import PersonImg from '../assets/person.webp';
 import AppNameImg from '../assets/app-name.png';
-import { FiHome, FiTag, FiGrid, FiBarChart2, FiPlusSquare, FiMessageSquare, FiBell, FiMenu, FiChevronDown, FiX } from "react-icons/fi";
+import { FiHome, FiTag, FiGrid, FiBarChart2, FiPlusSquare, FiMessageSquare, FiBell, FiMenu } from "react-icons/fi";
 import { Button } from './ui/button';
 import {
   DropdownMenu,
@@ -76,7 +76,7 @@ const Header = () => {
           alt="Hayat"
           className='h-[36px]'
         />
-        <div className='hidden sm:flex items-center justify-around flex-1'>
+        <div className='hidden sm:flex items-center justify-center gap-x-30 flex-1'>
           <NavItem />
         </div>
 
